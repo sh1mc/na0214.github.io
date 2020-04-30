@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+img {
+  animation: rotation 1s linear infinite;
+}
