@@ -21,9 +21,9 @@ body {
 }
 
 #otaku{
-  animation: rotation 1s linear infinite;
+  animation: rotation 0.1s linear infinite;
 }
 
 #friend{
-  animation: rotateZ 3s linear infinite;
+  animation: rotateZ 0.5s linear infinite;
 }
