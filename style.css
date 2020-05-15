@@ -11,6 +11,19 @@ body {
   }
 }
 
-img {
+@keyframes rotateZ{
+  from{
+    transform: rotateZ(0);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+
+#otaku{
   animation: rotation 1s linear infinite;
+}
+
+#friend{
+  animation: rotateZ 3s linear infinite;
 }
